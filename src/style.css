@@ -76,10 +76,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 0 24px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
   }
   
   .contact-card p {
@@ -141,7 +137,8 @@ body {
   /*............Skills Styling................*/
 
   .skill-page{
-    padding: 12px 36px; 
+    background-color: white;
+    padding: 12px 36px;
   }
   
   .w-half{
@@ -189,6 +186,11 @@ body {
   .w-100{
     width: 100%;
   }
+
+  .link-navigate{
+  text-decoration: underline;
+  color: rgba(0, 0, 254, 0.75);
+}
 
   .resume-card1{
     background-color: #FFE3BF;
@@ -301,8 +303,14 @@ body {
   }
 
   @media (max-width: 720px) {
+    body{
+      width: 100%;
+    }
     .logo{
       text-align: center;
+    }
+    .d-flex1{
+      flex-direction: column;
     }
     .home-page {
       flex-direction: column;
@@ -311,9 +319,6 @@ body {
       flex-direction: column;
     }
   
-  body{
-    width: 100%;
-  }
   .resume-card{
     padding: 12px 24px;
     column-gap: 10px;
@@ -354,7 +359,7 @@ body {
   .contact-page{
     padding: 12px 24px;
   }
-  .Project-page{
+  .project-page{
     margin: 0;
     margin-top: 12px;
     padding: 4px 4px;
@@ -375,7 +380,7 @@ body {
       border-radius: 12px;
       padding: 24px 0px;
     }
-    .Project-page{
+    .project-page{
       margin: 0;
       margin-top: 12px;
       padding: 4px 4px;

@@ -1,5 +1,8 @@
 import React from 'react';
-import foodsite from '../../assets/foodmunch.jpg';
+import foodsite from '../../assets/foodmunch.png';
+import todo from '../../assets/todolist.png';
+import crud from '../../assets/crudoperations.png';
+import netflix from '../../assets/netflixclone.png';
 
 const Projects = () => {
 
@@ -17,13 +20,13 @@ const Projects = () => {
             <div>
                 <div className="project-image2 rounded">
                     <img className="image2" src={foodsite} alt="food-munch" />
-                    <p className="text-color my-1">HTML & CSS</p>
-                    <h6>Food Munch Website</h6>
+                    <p className="text-color my-1">React.js, Node.js, Express.js, Mongo db</p>
+                    <h6>ONLINE FOOD RESTAURANT WEBSITE</h6>
                     <div className="d-flex justify-content-center">
                         <button
                             onClick={() =>
                             handleNavigate(
-                                "https://github.com/manikumar324/Foodsite"
+                                "https://github.com/manikumar324/Project_Frontend"
                             )
                             }
                             className="src-button"
@@ -33,14 +36,14 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="project-image1 rounded my-3">
-                    <img className="image2" src={foodsite} alt="food-munch" />
-                    <p className="text-color my-1">HTML & CSS</p>
-                    <h6>Food Munch Website</h6>
+                    <img className="image2" src={crud} alt="crud" />
+                    <p className="text-color my-1">Node.js , Express.js & SQL</p>
+                    <h6>CRUD OPERATIONS</h6>
                     <div className="d-flex justify-content-center">
                         <button
                             onClick={() =>
                             handleNavigate(
-                                "https://github.com/manikumar324/Foodsite"
+                                "https://github.com/manikumar324/crud_operations"
                             )
                             }
                             className="src-button"
@@ -52,14 +55,14 @@ const Projects = () => {
             </div>
             <div>
                 <div className="project-image1 rounded">
-                    <img className="image2" src={foodsite} alt="food-munch" />
-                    <p className="text-color my-1">HTML & CSS</p>
-                    <h6>Food Munch Website</h6>
+                    <img className="image2" src={todo} alt="todo" />
+                    <p className="text-color my-1">REACT & TAILWIND CSS</p>
+                    <h6>TO - DO LIST APPLICATION</h6>
                         <div className="d-flex justify-content-center">
                             <button
                                 onClick={() =>
                                 handleNavigate(
-                                    "https://github.com/manikumar324/Foodsite"
+                                    "https://github.com/manikumar324/todo-application-using-REACT"
                                 )
                                 }
                                 className="src-button"
@@ -69,9 +72,9 @@ const Projects = () => {
                         </div>
                 </div>
                 <div className="project-image2 rounded my-3">
-                    <img className="image2" src={foodsite} alt="food-munch" />
-                    <p className="text-color my-1">HTML & CSS</p>
-                    <h6>Food Munch Website</h6>
+                    <img className="image2" src={netflix} alt="netflix" />
+                    <p className="text-color my-1">React.js, Css</p>
+                    <h6>NETFLIX - CLONE</h6>
                     <div className="d-flex justify-content-center">
                         <button
                             onClick={() =>

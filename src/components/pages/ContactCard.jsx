@@ -22,9 +22,9 @@ const ContactCard = () => {
             </div>
         </div>
         <div className="py-3 d-flex justify-content-center">
-            <Link to="/Manikumar-Resume-Updated.pdf" target='_blank' download className='btn btn-bg'>
+            <a href="/Manikumar_Resume_Updated.pdf" target='_blank' download className='btn btn-bg'>
             <div className='d-flex justify-content align-items gap-2'><Download size={16}/>Download Resume</div>
-            </Link>
+            </a>
         </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import React from 'react';
 import git from '../../assets/github.png';
-import insta from '../../assets/instagram.png';
+import insta from '../../assets/instagram2.png';
 import twit from '../../assets/twitter.png';
 import linked from '../../assets/linkedin.png';
 

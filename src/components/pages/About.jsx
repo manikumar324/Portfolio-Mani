@@ -1,6 +1,7 @@
 import React from 'react';
 import webImage from '../../assets/web.png';
-// import uiImage from '../../assets/ui.png';
+import uiImage from '../../assets/fullstack.png';
+import designImage from '../../assets/design.png';
 
 const About = () => {
   return (
@@ -19,7 +20,7 @@ const About = () => {
             <div className='about-card'>
                 <h5>
                     <img src={webImage} alt='web development'
-                     style={{ width: "24px", height: "24px" }}/>
+                     style={{ width: "24px", height: "24px" ,margin:"2px"}} />
                     Web Development
                 </h5>
                 <p>
@@ -29,31 +30,32 @@ const About = () => {
                 </p>
             </div>
         </div>
-        {/* <div className="d-flex about-flex gap-3  mt-3">
-            <div className='about-card'>
-                <h5>
-                    <img src={fulstack} alt='fullstack'
-                     style={{ width: "24px", height: "24px" }}>
-                     UI Designing</img>
-                </h5>
-                <p>
-                I Have Knowledge in create stunning UI designs for your projects.
-                I focus on user-centered design principles to ensure intuitive and 
-                visually appealing interfaces.
-                </p>
-            </div>
-        </div> */}
         <div className="d-flex about-flex gap-3  mt-3">
             <div className='about-card'>
                 <h5>
-                    <img src={webImage} alt='webImage'
-                     style={{ width: "24px", height: "24px" }}/>
+                    <img src={uiImage} alt='webImage'
+                     style={{ width: "24px", height: "24px" ,margin:"2px"}}/>
                      UI Development
                 </h5>
                 <p>
                 I convert your UI designs into interactive and responsive web interfaces. 
                 Using modern frontend frameworks like React.js and Bakend like Node.js, 
                 I bring your designs to life with smooth animations and seamless user experiences.
+                </p>
+            </div>
+        </div>
+        
+        <div className="d-flex about-flex gap-3  mt-3">
+            <div className='about-card'>
+                <h5>
+                    <img src={designImage} alt='designImage'
+                     style={{ width: "24px", height: "24px" ,margin:"2px"}}/>
+                     UX Designing
+                </h5>
+                <p>
+                I Have Knowledge in create stunning UI designs for your projects. 
+                I focus on user-centered design principles to ensure intuitive and 
+                visually appealing interfaces.
                 </p>
             </div>
         </div>
