@@ -56,7 +56,7 @@ const Projects = () => {
             <div>
                 <div className="project-image1 rounded">
                     <img className="image2" src={todo} alt="todo" />
-                    <p className="text-color my-1">REACT & TAILWIND CSS</p>
+                    <p className="text-color my-1">React.js & Tailwind Css</p>
                     <h6>TO - DO LIST APPLICATION</h6>
                         <div className="d-flex justify-content-center">
                             <button
@@ -73,7 +73,7 @@ const Projects = () => {
                 </div>
                 <div className="project-image2 rounded my-3">
                     <img className="image2" src={netflix} alt="netflix" />
-                    <p className="text-color my-1">React.js, Css</p>
+                    <p className="text-color my-1">React.js & Css</p>
                     <h6>NETFLIX - CLONE</h6>
                     <div className="d-flex justify-content-center">
                         <button
