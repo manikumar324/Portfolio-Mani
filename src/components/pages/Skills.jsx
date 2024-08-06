@@ -16,6 +16,7 @@ const Skills = () => {
                 <span className="skill-icon">Bootstrap</span>
                 <span className="skill-icon">Python</span>
                 <span className="skill-icon">SQL</span>
+                <span className="skill-icon">Ms Excel</span>
 
                 <span className="skill-icon">Git</span>
                 <span className="skill-icon">Mysql</span>
