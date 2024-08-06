@@ -2,7 +2,7 @@ import React from 'react';
 import foodsite from '../../assets/foodmunch.png';
 import todo from '../../assets/todolist.png';
 import crud from '../../assets/crudoperations.png';
-import netflix from '../../assets/netflixclone.png';
+import chatapp from '../../assets/chat-app.png';
 
 const Projects = () => {
 
@@ -72,14 +72,14 @@ const Projects = () => {
                         </div>
                 </div>
                 <div className="project-image2 rounded my-3">
-                    <img className="image2" src={netflix} alt="netflix" />
-                    <p className="text-color my-1">React.js & Css</p>
-                    <h6>NETFLIX - CLONE</h6>
+                    <img className="image2" src={chatapp} alt="chatapp" />
+                    <p className="text-color my-1">React.js, Node.js, Express.js, Css</p>
+                    <h6>CHAT - APPLICATION</h6>
                     <div className="d-flex justify-content-center">
                         <button
                             onClick={() =>
                             handleNavigate(
-                                "https://github.com/manikumar324/Foodsite"
+                                "https://github.com/manikumar324/Chat-App"
                             )
                             }
                             className="src-button"
