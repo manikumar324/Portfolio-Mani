@@ -1,6 +1,7 @@
 import React from 'react';
 import {useForm} from 'react-hook-form';
 import { useState } from 'react';
+import axios from 'axios';
 
 const Contact = () => {
 
@@ -14,6 +15,28 @@ const Contact = () => {
       formState: { errors },
     } = useForm();
     
+    const onSubmit = async (data) => {
+        setClicked(true);
+        setSuccess(false);
+        setError(false);
+    
+        try {
+          const response = await axios.post('https://backend-portfolio-mb9e.onrender.com/contact', data);
+    
+          if (response.status === 200) {
+            setSuccess(true);
+            reset(); // Clear form fields after successful submission
+          } else {
+            setError(true);
+          }
+        } catch (error) {
+          console.error('Error sending email:', error);
+          setError(true);
+        }
+    
+        setClicked(false);
+      };
+
   return (
     <div className='contact-page'>
         <h3>Contact</h3>
@@ -29,7 +52,7 @@ const Contact = () => {
                 I am always open to discussing new projects, opportunities in tech
                 world, partnerships and more so mentorship.
             </p>
-            <form onSubmit={handleSubmit()}>
+            <form onSubmit={handleSubmit(onSubmit)}>
                 <div className='mb-3'>
                     <label className='form-label'>Name</label>
                     <input
