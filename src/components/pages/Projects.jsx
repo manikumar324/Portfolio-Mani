@@ -1,5 +1,5 @@
 import React from 'react';
-import foodsite from '../../assets/foodmunch.png';
+import swyft from '../../assets/swyft-project.png';
 import todo from '../../assets/todolist.png';
 import crud from '../../assets/crudoperations.png';
 import chatapp from '../../assets/chat-app.png';
@@ -19,14 +19,14 @@ const Projects = () => {
         <div className='d-flex image-col gap-10 mx-auto'>
             <div>
                 <div className="project-image2 rounded">
-                    <img className="image2" src={foodsite} alt="food-munch" />
-                    <p className="text-color my-1">React.js, Node.js, Express.js, Mongo db</p>
-                    <h6>ONLINE FOOD RESTAURANT WEBSITE</h6>
+                    <img className="image2" src={swyft} alt="food-munch" />
+                    <p className="text-color my-1">React.js, Node.js, Express.js, Mongo db & Tailwind Css</p>
+                    <h6>SWYFT - Grocery Store Application</h6>
                     <div className="d-flex justify-content-center">
                         <button
                             onClick={() =>
                             handleNavigate(
-                                "https://github.com/manikumar324/Project_Frontend"
+                                "https://github.com/manikumar324/Swyft-Project/tree/master"
                             )
                             }
                             className="src-button"
@@ -73,7 +73,7 @@ const Projects = () => {
                 </div>
                 <div className="project-image2 rounded my-3">
                     <img className="image2" src={chatapp} alt="chatapp" />
-                    <p className="text-color my-1">React.js, Node.js, Express.js, Css</p>
+                    <p className="text-color my-1">React.js, Node.js, Express.js, Tailwind Css</p>
                     <h6>CHAT - APPLICATION</h6>
                     <div className="d-flex justify-content-center">
                         <button
