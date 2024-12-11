@@ -1,7 +1,7 @@
 import React from 'react';
 import ContactCard from './ContactCard';
 import SocialMedia from './SocialMedia';
-import ProfilePhoto from '../../assets/profile.jpg';
+import ProfilePhoto from '../../assets/profile-pic.jpg';
 
 
 const Profile = () => {
