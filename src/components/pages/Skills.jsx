@@ -4,12 +4,12 @@ const Skills = () => {
   return (
     <div className='d-flex skill-page'>
         <div className='w-half'>
-            <h3>Work Skills</h3>
+            <h3>Technical Skills</h3>
             <div className="d-flex gap-3 mb-2 flex-wrap">
-                <span className="skill-icon">React</span>
+                <span className="skill-icon">React.js</span>
                 <span className="skill-icon">Node.js</span>
                 <span className="skill-icon">Express.js</span>
-                <span className="skill-icon">Javascript</span>
+                <span className="skill-icon">JavaScript</span>
                 <span className="skill-icon">HTML5</span>
                 <span className="skill-icon">CSS3</span>
 
@@ -19,6 +19,7 @@ const Skills = () => {
                 <span className="skill-icon">Ms Excel</span>
 
                 <span className="skill-icon">Git</span>
+                <span className="skill-icon">GitHub</span>
                 <span className="skill-icon">Mysql</span>
             </div>
         </div>
@@ -27,8 +28,11 @@ const Skills = () => {
             <div className="d-flex gap-3 mb-2 flex-wrap">
                 <span className="skill-icon">Time Management</span>
                 <span className="skill-icon">Flexibility</span>
+                <span className="skill-icon">Problem Solving</span>
                 <span className="skill-icon">Team Player</span>
-                <span className="skill-icon">Excellent Communication</span>
+                <span className="skill-icon">Creative Thinking</span>
+                <span className="skill-icon">Quick Learner</span>
+                <span className="skill-icon">Effective Communication</span>
             </div>
         </div>
     </div>

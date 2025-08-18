@@ -18,11 +18,11 @@ const ContactCard = () => {
             <img src={location} alt='location'className='contact-image'/>
             <div>
                 <p className='text-color'>Location</p>
-                <p>Nandyal , Andhra Pradesh</p>
+                <p>Hyderabad, Telangana</p>
             </div>
         </div>
         <div className="py-3 d-flex justify-content-center">
-            <a href="/Manikumar_Resume_Updated.pdf" target='_blank' download className='btn btn-bg'>
+            <a href="/Manikumar_Resume.pdf" target='_blank' download className='btn btn-bg'>
             <div className='d-flex justify-content align-items gap-2'><Download size={16}/>Download Resume</div>
             </a>
         </div>
